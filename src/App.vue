@@ -18,7 +18,10 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
   </header>
 
-  <RouterView />
+  <main class="flex justify-center items-center">
+    <RouterView />
+  </main>
+
 </template>
 
 <style scoped>
