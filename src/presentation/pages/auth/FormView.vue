@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import InputComponent from '@/components/base/InputComponent.vue'
-import ButtonComponent from '@/components/base/ButtonComponent.vue'
+import InputComponent from '@/presentation/components/base/InputComponent.vue'
+import ButtonComponent from '@/presentation/components/base/ButtonComponent.vue'
 import { ref } from 'vue'
 
 type FormKeys = 'name' | 'email' | 'password'
