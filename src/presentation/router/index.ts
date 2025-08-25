@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import FormView from '../pages/auth/FormView.vue'
+import FormView from '../pages/auth/loginView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

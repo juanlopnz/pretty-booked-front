@@ -10,7 +10,6 @@ const formData = ref<Record<FormKeys, string>>({
   password: '',
 })
 const inputs: { label: string; key: FormKeys; type: string; placeholder?: string; required?: boolean; }[] = [
-  { label: 'Name', key: 'name', type: 'text', required: true },
   { label: 'Email', key: 'email', placeholder: 'example@example.com', type: 'email', required: true },
   { label: 'Password', key: 'password', type: 'password' },
 ]
