@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import InputComponent from '@/components/base/InputComponent.vue'
-import ButtonComponent from '@/components/base/ButtonComponent.vue'
+import InputComponent from '@/presentation/components/base/InputComponent.vue'
+import ButtonComponent from '@/presentation/components/base/ButtonComponent.vue'
 import { ref } from 'vue'
 
 type FormKeys = 'name' | 'email' | 'password'
@@ -10,7 +10,6 @@ const formData = ref<Record<FormKeys, string>>({
   password: '',
 })
 const inputs: { label: string; key: FormKeys; type: string; placeholder?: string; required?: boolean; }[] = [
-  { label: 'Name', key: 'name', type: 'text', required: true },
   { label: 'Email', key: 'email', placeholder: 'example@example.com', type: 'email', required: true },
   { label: 'Password', key: 'password', type: 'password' },
 ]
